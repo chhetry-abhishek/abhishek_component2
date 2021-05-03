@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* nav-items css */
+
+nav{
+    background:#603e75;
+    padding: 15px 0px;
+    text-align: center;
+    border-bottom: 1px solid rgba(155, 150, 150, 0.568);
+}
+nav li{
+    list-style: none;
+}
+nav li a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+
+/* body css */
+
+.body{
+    min-height: 90vh;
+    background:#603e75;
+    /* padding-top: 20px;
+    padding-left: 20px;
+    color: white; */
+}
+
+.row{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.row form{
+    display:flex;
+    flex-direction:column;
+    padding:5px 10px ;
+    /* font-size: 18px;
+    font-weight: lighter; */
+}
+.row .book{
+    padding:5px 10px ;
+    color: white;
+    font-size: 18px;
+    font-weight: lighter;
+}
+.row .cd{
+    padding:5px 10px ;
+    color: white;
+    font-size: 18px;
+    font-weight: lighter;
+}
+/* footer css */
+footer{
+    background:#603e75;
+    padding:15px 0px;
+    color: white;
+    text-align: center;
+    border-top: 1px solid rgba(155, 150, 150, 0.568);
+    font-size: 20px;
+    font-weight: lighter;
+}
